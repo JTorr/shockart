@@ -92,3 +92,11 @@ a.thumbnail:focus,
 a.thumbnail:active {
 	border-color: transparent;
 }
+
+#form {
+	padding: 5em 10em 2em 10em;
+}
+
+#form h2 {
+	text-align: center;
+}
