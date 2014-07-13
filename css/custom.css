@@ -1,0 +1,94 @@
+body {
+	padding-top: 70px;
+}
+
+.navbar-default {
+	background: url(../img/nav3.jpg) no-repeat;
+	border: 5px solid black;
+}
+
+.navbar-toggle {
+	color:  white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-toggle:hover {
+	background-color: @gray-lighter
+	color: #0066ff;
+}
+.navbar-toggle .glyphicon {
+	color: ffff66;
+}
+.navbar-toggle:hover .glyphicon {
+	color: #ffffcc;
+}
+
+.container {
+	width: 100%;
+	height: 35em;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #89290B;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav li > a:hover {
+	color: #DA4112;
+	font-weight: bold;
+	
+}
+
+/*.container h1 {
+	float: right;
+	clear: right;
+	position: relative;
+	right: 5em;
+	top: 2em;
+}
+
+.container h2 {
+	float: right;
+	clear: right;
+	position: relative;
+	right: 6em;
+	top: 5em;
+}
+*/
+
+.jumbotron {
+	background-color: transparent;
+	margin-bottom: 0px;
+	background: url(../img/fire.png) no-repeat;
+	background-position: 0% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 2px 2px 7px black;
+}
+
+.thumbtitle {
+	margin-top: 2em;
+	text-align: center;
+	color: black;
+}
+
+.thumb {
+	border: 8px ridge black;
+}
+
+.nav .navbar-nav {
+	color: white;
+}
+
+.jumbotron h1 {
+	padding-top: 1.5em;
+	padding-left: 2.5em;
+	text-shadow: 5px 5px 5px black;
+}
+a.thumbnail:link,
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail:active {
+	border-color: transparent;
+}
