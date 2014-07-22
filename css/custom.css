@@ -1,5 +1,7 @@
 body {
 	padding-top: 70px;
+	background: url(../img/smoke.jpg) no-repeat;
+	background-size: cover;
 }
 
 .navbar-default {
@@ -103,4 +105,8 @@ a.thumbnail:active {
 
 .page-header {
 	text-align: center;
+}
+
+.thumbnail {
+	background-color: transparent;
 }
