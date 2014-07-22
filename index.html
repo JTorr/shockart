@@ -38,10 +38,38 @@
 			<!--row 2: jumbotron -->
 			<div class="jumbotron">
 				<div class="container"> <!--body container -->
-					<div class= "col-lg-6">
-						<img src="img/eye.png" alt="Shock Art Logo" class="img-responsive">
-					</div>
-					<div class="col-lg-6">
+					<!--## Art Carousel ## -->
+					<div class= "col-xs-6 col-lg-4">
+						<div id="art-carousel" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="item active"><!--fist item in carousel -->
+									<img src="img/eye.png" class="img-responsive">
+								</div>
+								<div class="item">
+									<img src="img/glasses.png" class="img-responsive">
+								</div>
+								<div class="item">
+									<img src="img/mixtape/rescate.png">
+								</div>
+								<div class="item">
+									<img src="img/mixtape/layzie.png">
+								</div>
+								<div class="item">
+									<img src="img/mixtape/flow.png">
+								</div>
+								<div class="item">
+									<img src="img/mixtape/cows.png">
+								</div>
+								<div class="item">
+									<img src="img/mixtape/lovepotion.png">
+								</div>
+							</div> <!-- /inner carousel -->
+							<!--Next and previous controls below -->
+							<a class="carousel-control left" href="#art-carousel" data-slide="prev">&lsaquo;</a>
+							<a class="carousel-control right" href="#art-carousel" data-slide="next">&rsaquo;</a>
+						</div> <!-- /art carousel -->
+					</div> <!-- /art carousel column -->
+					<div class="col-xs-6 col-lg-8">
 						<h1>Shock Art</h1>
 						<h2>Graphic Design for the Urban Musician</h2>
 					</div>
@@ -96,6 +124,11 @@
 	<!-- javascript -->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
  	<script src="js/bootstrap.min.js"></script>
+ 	<script> 
+  	$(document).ready(function(){
+    	$('.carousel').carousel({interval: 4000});
+  	});
+	</script>
     
     </body> <!-- === /body ==== -->
 
