@@ -103,14 +103,21 @@ a.thumbnail:active {
 
 #form {
 	padding: 5em 10em 2em 10em;
+	color: white;
 }
 
 #form h2 {
 	text-align: center;
+	color: white;
 }
 
 .page-header {
 	text-align: center;
+	color: black;
+}
+
+.page-header small {
+	color: #800000;
 }
 
 .thumbnail {
