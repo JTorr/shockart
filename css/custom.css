@@ -99,6 +99,8 @@ a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail:active {
 	border-color: transparent;
+	color: black;
+	text-decoration: none;
 }
 
 #form {
@@ -122,4 +124,11 @@ a.thumbnail:active {
 
 .thumbnail {
 	background-color: transparent;
+	color: black;
+	text-align: justify;
+}
+
+#col3 {
+	margin-right: auto;
+	margin-right: auto;
 }
