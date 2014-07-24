@@ -131,3 +131,32 @@ a.thumbnail:active {
 .media img {
 	max-height: 35em;
 }
+
+.nav > .disabled > a:hover, .nav > li.disabled > a, .nav > .disabled > a:link, .nav > .disabled > a:focus, .nav > .disabled > a:visited, .nav > .disabled > a:disabled {
+	color: transparent;
+	background-color: black; 
+}
+
+.navbutton {
+	background-color: black;
+}
+
+.navbutton a {
+	color: white;
+
+}
+
+.nav-pills > li.active > a {
+	background-color: #89290B;
+}
+
+
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+	background-color: black;
+	color: transparent;
+}
+
+.nav > li.active > a:hover, .nav > li.active > a:focus {
+	background-color: black;
+	color: #89290B;
+}
