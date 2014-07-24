@@ -1,0 +1,11 @@
+img {
+	border: solid white 5px;
+}
+
+#Staticlogo img {
+	max-width: 30em;
+	position: center;
+	padding-top: 5em;
+	padding-left: 5em;
+	border: none;
+}

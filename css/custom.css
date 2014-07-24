@@ -160,3 +160,7 @@ a.thumbnail:active {
 	background-color: black;
 	color: #89290B;
 }
+
+#kids img {
+	max-height:30em;
+}
