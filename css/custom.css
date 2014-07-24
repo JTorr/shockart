@@ -128,7 +128,6 @@ a.thumbnail:active {
 	text-align: justify;
 }
 
-#col3 {
-	margin-right: auto;
-	margin-right: auto;
+.media img {
+	max-height: 35em;
 }
