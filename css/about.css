@@ -13,3 +13,18 @@ img {
 .nav > li > a:hover {
 	background-color: #89290B;
 }
+
+.panel-heading {
+	text-align: center;
+	color: black;
+	text-decoration: bold;
+}
+
+.panel {
+	color: black;
+	text-align: justify;
+}
+.special {
+	background-color: #DFF0D8;
+    color: #3C763D;
+}
