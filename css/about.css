@@ -9,3 +9,7 @@ img {
 	padding-left: 5em;
 	border: none;
 }
+
+.nav > li > a:hover {
+	background-color: #89290B;
+}
