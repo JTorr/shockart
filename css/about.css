@@ -14,17 +14,32 @@ img {
 	background-color: #89290B;
 }
 
-.panel-heading {
+.panel-default > .panel-heading {
 	text-align: center;
-	color: black;
+	color: white;
 	text-decoration: bold;
+	background-color: #525252;
+	border-color: #89290B;
+	border-width: 2px;
 }
 
 .panel {
 	color: black;
 	text-align: justify;
+	background-color: #CCCCCC;
+	border-color: #89290B;
+	border-width: 4px;
 }
 .special {
-	background-color: #DFF0D8;
-    color: #3C763D;
+	background-color: #808080;
+    color: white;
+    text-decoration: bold;
+}
+
+.badge {
+	background-color: black;
+}
+
+tr {
+	border-color: #89290B;
 }
